@@ -2432,11 +2432,11 @@ void CN64System::RefreshScreen()
 		{
 			g_Debugger->FrameDrawn();
 		}
-        WriteTrace(TraceGFXPlugin, TraceDebug, "UpdateScreen done");
+        WriteTrace(TraceVideoPlugin, TraceDebug, "UpdateScreen done");
     }
     __except_catch()
     {
-        WriteTrace(TraceGFXPlugin, TraceError, "Exception caught");
+        WriteTrace(TraceVideoPlugin, TraceError, "Exception caught");
     }
     g_MMU->UpdateFieldSerration((m_Reg.VI_STATUS_REG & 0x40) != 0);
 

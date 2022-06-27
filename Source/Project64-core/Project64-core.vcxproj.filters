@@ -100,6 +100,18 @@
     <Filter Include="Source Files\N64 System\MemoryHandler">
       <UniqueIdentifier>{f32cf723-4acb-4d3d-9bd9-05823579f8dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\N64 System\Plugins">
+      <UniqueIdentifier>{ac92e812-22e1-4a1a-8dd5-5055073c882c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\N64 System\SaveType">
+      <UniqueIdentifier>{2413bbc1-6766-4c13-8a6f-da8840d096dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\N64 System\SaveType">
+      <UniqueIdentifier>{f058be82-aec4-4e3d-a163-2eec0aa64feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plugin Spec">
+      <UniqueIdentifier>{a29536c1-cda4-43b0-b3c6-12a24f42be64}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -697,6 +709,66 @@
     </ClInclude>
     <ClInclude Include="N64System\MemoryHandler\SPRegistersHandler.h">
       <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\RDRAMRegistersHandler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\DisplayControlRegHandler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\MIPSInterfaceHandler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\VideoInterfaceHandler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\AudioInterfaceHandler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\SerialInterfaceHandler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\CartridgeDomain2Address1Handler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\RomMemoryHandler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\PifRamHandler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\SaveType\Eeprom.h">
+      <Filter>Header Files\N64 System\SaveType</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\SaveType\FlashRam.h">
+      <Filter>Header Files\N64 System\SaveType</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\SaveType\Sram.h">
+      <Filter>Header Files\N64 System\SaveType</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\CartridgeDomain1Address1Handler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\CartridgeDomain1Address3Handler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="N64System\MemoryHandler\CartridgeDomain2Address2Handler.h">
+      <Filter>Header Files\N64 System\MemoryHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project64-plugin-spec\Base.h">
+      <Filter>Header Files\Plugin Spec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project64-plugin-spec\Video.h">
+      <Filter>Header Files\Plugin Spec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project64-plugin-spec\Audio.h">
+      <Filter>Header Files\Plugin Spec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project64-plugin-spec\Input.h">
+      <Filter>Header Files\Plugin Spec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project64-plugin-spec\Rsp.h">
+      <Filter>Header Files\Plugin Spec</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
