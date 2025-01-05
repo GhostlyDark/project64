@@ -316,7 +316,7 @@ needs five arguments, not two.  Also, GCC lacks SEH.
 	}
 	if (Intel_Features & 0x00800000)
 	{
-		Compiler.mmx = TRUE;
+//		Compiler.mmx = TRUE;
 	}
 	if (AMD_Features & 0x40000000)
 	{
