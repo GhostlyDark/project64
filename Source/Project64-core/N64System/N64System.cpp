@@ -2426,7 +2426,7 @@ void CN64System::RefreshScreen()
 
     __except_try()
     {
-        WriteTrace(TraceGFXPlugin, TraceDebug, "UpdateScreen starting");
+        WriteTrace(TraceVideoPlugin, TraceDebug, "UpdateScreen starting");
         g_Plugins->Gfx()->UpdateScreen();
 		if (g_Debugger != nullptr && HaveDebugger())
 		{
